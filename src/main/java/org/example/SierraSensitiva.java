@@ -13,7 +13,7 @@ public class SierraSensitiva {
         try {
             semaforo.acquire();
             System.out.println("--El proyecto " + proyectoID + " está utilizando la Sierra sensitiva.--");
-            // Realizar trabajo en la sierra sensitiva
+            // Realizar trabajo en la Sierra Sensitiva
             Thread.sleep(2000);
             System.out.println("--El proyecto " + proyectoID + " ha terminado de utilizar la Sierra sensitiva.--");
             semaforo.release();
